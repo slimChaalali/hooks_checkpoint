@@ -34,11 +34,11 @@ const Filter = ({ movies, setFilteredMovies }) => {
     return (
 
         <div className='filter'>
-            <h1>Choose your Films</h1>
+            <h1>Choose Your Movie</h1>
             <div className='search'>
             <input
                 type="text"
-                placeholder="Search by title..."
+                placeholder="Search by title"
                 value={titleFilter}
                 onChange={handleTitleFilterChange}
             />
@@ -46,14 +46,14 @@ const Filter = ({ movies, setFilteredMovies }) => {
                 value={ratingFilter}
                 onChange={handleRatingFilterChange}
             >
-                <option value="">Search by rating...</option>
+                <option value="">Search by rating</option>
                 <option value="1/5">1/5</option>
                 <option value="2/5">2/5</option>
                 <option value="3/5">3/5</option>
                 <option value="4/5">4/5</option>
                 <option value="5/5">5/5</option>
             </select>
-            <button onClick={applyFilters}>Search</button>
+            <button onClick={applyFilters}><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
         </div>
     );
