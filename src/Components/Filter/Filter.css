@@ -47,7 +47,7 @@
 }
 .search button i{
     font-size: 20px;
-    transition: transform 0.5s; /* Add a smooth transition effect */
+    transition: transform 0.5s;
   }
   
   .search button i:hover {
