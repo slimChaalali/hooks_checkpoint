@@ -1,0 +1,33 @@
+.filter{
+    background-color: black;
+    padding-top: 10%;
+}
+.filter h1{
+    padding-bottom: 3%;
+    color: red;
+}
+.search {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    padding-left: 35%;
+}
+.search input{
+    border-color: white;
+    background-color: black;
+    color: red;
+}
+.search input::placeholder{
+    color: red;
+}
+.search select{
+    border-color: white;
+    background-color: black;
+    color: red;
+}
+.search button{
+    border-color: white;
+    background-color: red;
+    color: white;
+    width: 100px;
+}
